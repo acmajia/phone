@@ -12,6 +12,5 @@ console.log(find(13308989997));
 console.log(find(15916860012));
 console.log(find(05916860012));
 */
-console.log(find(1713200));
-console.log(find(1760073));
-console.log(find(1899999));
+
+console.log(find(17608290574));

@@ -27,7 +27,7 @@ function formatResult (phone, opType, content) {
 }
 
 function find (phoneOrigin) {
-  var phone = parseInt((phoneOrigin + '').substr(0, 7))
+  var phone = parseInt((phoneOrigin + '').substring(0, 7))
   var left = 0
   var right = size - 1
   while (left <= right) {
